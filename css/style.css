@@ -146,16 +146,15 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
     box-sizing: border-box;
+    justify-content: flex-end;
+    gap: 56px;
 }
 
 .top_photo {
     display: block;
     box-sizing: border-box;
-    width: 804px;
     height: 626px;
-    padding-right: calc(50% - 804px);
     margin: 28px 0 0;
 }
 
@@ -166,7 +165,13 @@ a {
 .slogan {
     box-sizing: border-box;
     max-width: 550px;
-    margin: 0 56px 100px 0;
+    margin: 0 0 100px 0;
+}
+
+.sl_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slogan_top {
@@ -827,7 +832,7 @@ a {
 
     .top_photo {
         padding: 0;
-        width: 511px;
+        width: 455px;
         height: 440px;
         margin: 0;
     }
